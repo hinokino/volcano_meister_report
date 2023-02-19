@@ -1,0 +1,42 @@
+<div class="reportshow">
+    <div class="report-show-item">
+        <h3>実施日:</h3>
+        <%= @report.date %>
+    </div>
+    <div class="report-show-item">
+        <h3>報告者:</h3>
+        <%= @report.reporter_name %>
+    </div>
+    <div class="report-show-item">
+        <h3>参加VM:</h3>
+        <%= @report.member_vm_name %>
+    </div>
+    <div class="report-show-item">
+        <h3>行事名:</h3>
+        <%= @report.event_name %>
+    </div>
+    <div class="report-show-item">
+        <h3>活動区分:</h3>
+        <%= @report.category %>
+    </div>
+    <div class="report-show-item">
+        <h3>対象団体:</h3>
+        <%= @report.target_group %>
+    </div>
+    <div class="report-show-item">
+        <h3>対象人数:</h3>
+        <%= @report.target_count %>
+    </div>
+    <<div class="report-show-item">
+        <h3>報告事項（実施内容、行程など）:</h3>
+        <%= @report.report_detail %>
+    </div>
+    <div class="report-show-item">
+        <h3>次に生かすための情報共有（成功した試み、反省点など）:</h3>
+        <%= @report.learnings %>
+    </div>
+    <div class="report-show-item">
+        <h3>その他、特筆事項:</h3>
+        <%= @report.notes %>
+    </div>
+</div>

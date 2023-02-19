@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VolcanoMeisterReport</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo">
+        <%= link_to("火山マイスターフォームページ", "/", class: "header-link") %>
+      </div>
+    </header>
+    <div class="flash">
+      <%= flash[:notice] %>
+    </div>
+    <%= yield %>
+  </body>
+</html>

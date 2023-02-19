@@ -1,0 +1,9 @@
+<h1>火山マイスターフォーム集計ページ</h1>
+<p>火山マイスターレポート</p>
+<div class="reports">
+    <% @reports.each do |report| %>
+        <div class="report-item">
+            <%= link_to(report.event_name, "/reports/#{report.id}") %>
+        </div>
+    <% end %>
+</div>

@@ -1,0 +1,36 @@
+<h1>火山マイスターレポート</h1>
+<p>講師活動、自主研修、フィールド調査活動等を実施後、本レポートを7日以内に事務局に提出してください。<br>（※印の付いてるものは必須事項です）</p>
+<div class="form">
+    <div class="error_message">
+        <% @report.errors.full_messages.each do |message| %>
+            <%= message %>
+            <br>
+        <% end %>
+    </div>
+
+    <%= form_tag("/form/create") do %>
+        <div class="form-body">
+            <p>実施日※（YYYY/MM/DD）</p>
+            <input name="date">
+            <p>報告者※</p>
+            <input name="reporter_name">
+            <p>参加VM※</p>
+            <textarea name="member_vm_name"></textarea>
+            <p>行事名※</p>
+            <input name="event_name">
+            <p>活動区分※</p>
+            <input name="category">
+            <p>対象団体</p>
+            <textarea name="target_group"></textarea>
+            <p>対象人数</p>
+            <input name="target_count">
+            <p>報告事項（実施内容、行程など）※</p>
+            <textarea class="high-height" name="report_detail"></textarea>
+            <p>次に生かすための情報共有（成功した試み、反省点など）</p>
+            <textarea class="high-height" name="learnings"></textarea>
+            <p>その他、特筆事項</p>
+            <textarea class="high-height" name="notes"></textarea>
+        </div>
+            <input class="form-submit" type="submit" value="送信">
+    <% end %>
+</div>

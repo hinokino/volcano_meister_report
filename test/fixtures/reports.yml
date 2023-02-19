@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2023-02-19
+  reporter_name: MyString
+  member_vm_name: MyText
+  event_name: MyText
+  category: MyString
+  target_group: MyString
+  target_count: 1
+  report_detail: MyText
+  learnings: MyText
+  notes: MyText
+  pdf_name: MyText
+
+two:
+  date: 2023-02-19
+  reporter_name: MyString
+  member_vm_name: MyText
+  event_name: MyText
+  category: MyString
+  target_group: MyString
+  target_count: 1
+  report_detail: MyText
+  learnings: MyText
+  notes: MyText
+  pdf_name: MyText

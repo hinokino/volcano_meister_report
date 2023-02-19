@@ -1,0 +1,77 @@
+* {
+    text-align: center;
+  }
+  
+  .form-body input {
+    text-align: left;
+      border: 1px solid rgb(57, 102, 252);
+      padding: 20px;
+      margin-bottom: 20px;
+      width: 400px;
+  }
+  
+  .form-body textarea {
+    text-align: left;
+      border: 1px solid rgb(57, 102, 252);
+      width: 400px;
+      margin-bottom: 20px;
+      padding: 20px;
+      
+  }
+  
+  .form-submit {
+      background-color: rgb(142, 167, 248);
+      padding: 20px;
+      margin-bottom: 20px;
+      width: 400px;
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  p {
+      font-size: 20px;
+  }
+
+  .flash {
+    background-color: aqua;
+  }
+
+  .report-item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid blue;
+    width: 400px;
+  }
+
+  .high-height {
+    height: 300px;
+  }
+
+  header {
+    background-color: rgb(122, 160, 65);
+    height: 50px;
+  }
+
+  .header-logo {
+    font-size: 20px;
+    
+  }
+
+  .header-link {
+    color: white;
+  }
+
+  .error-message {
+    padding: 10px;
+    border: 1px solid blue;
+    color: red;
+  }
+
+  .reportshow {
+    text-align: left;
+  }
+
+  .report-show-item {
+    
+    border-bottom: 1px solid #000000;
+  }
